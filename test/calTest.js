@@ -10,16 +10,16 @@ describe('Calculator',function(){
 		it('It should add two numbers',function(){
 		assert.equal('10',cal.sum(8,2));
 		});
-		it('It should give error',function(){
+		/*it('It should give error',function(){
 		assert.equal('11',cal.sum(8,2));
-		});
+		});*/
 	});
 	describe('SubFunction',function(){
 		it('It should subtract two numbers',function(){
 		assert.equal('6',cal.sub(8,2));
 		});
-		it('It should give error',function(){
+		/*it('It should give error',function(){
 		assert.equal('11',cal.sub(8,2));
-		});
+		});*/
 	});
 });
